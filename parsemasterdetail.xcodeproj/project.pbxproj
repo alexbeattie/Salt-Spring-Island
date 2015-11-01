@@ -13,9 +13,16 @@
 		8E72FF4A1BE50C9400C524D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E72FF481BE50C9400C524D2 /* Main.storyboard */; };
 		8E72FF4C1BE50C9400C524D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E72FF4B1BE50C9400C524D2 /* Assets.xcassets */; };
 		8E72FF4F1BE50C9400C524D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E72FF4D1BE50C9400C524D2 /* LaunchScreen.storyboard */; };
+		8EF7BFBA1BE50F660052770A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7BFB91BE50F660052770A /* Config.swift */; };
+		8EF7BFBC1BE512E40052770A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7BFBB1BE512E40052770A /* CollectionViewCell.swift */; };
+		8EF7BFBE1BE513250052770A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7BFBD1BE513250052770A /* GradientView.swift */; };
+		8EF7BFC01BE52CA40052770A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7BFBF1BE52CA40052770A /* ViewController.swift */; };
+		8EF7BFC21BE535390052770A /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7BFC11BE535390052770A /* Trail.swift */; };
+		E0158A08A108105F1F232CC7 /* Pods_parsemasterdetail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496122AC3AAAD75D51234A29 /* Pods_parsemasterdetail.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		496122AC3AAAD75D51234A29 /* Pods_parsemasterdetail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parsemasterdetail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E72FF3F1BE50C9400C524D2 /* parsemasterdetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parsemasterdetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E72FF421BE50C9400C524D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E72FF441BE50C9400C524D2 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,13 @@
 		8E72FF4B1BE50C9400C524D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E72FF4E1BE50C9400C524D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E72FF501BE50C9400C524D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF7BFB91BE50F660052770A /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		8EF7BFBB1BE512E40052770A /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		8EF7BFBD1BE513250052770A /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		8EF7BFBF1BE52CA40052770A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EF7BFC11BE535390052770A /* Trail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
+		927E14D6E7A626BF2F6EADF5 /* Pods-parsemasterdetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parsemasterdetail.release.xcconfig"; path = "Pods/Target Support Files/Pods-parsemasterdetail/Pods-parsemasterdetail.release.xcconfig"; sourceTree = "<group>"; };
+		FE39A65E1A836B36EEAAB22C /* Pods-parsemasterdetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parsemasterdetail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-parsemasterdetail/Pods-parsemasterdetail.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0158A08A108105F1F232CC7 /* Pods_parsemasterdetail.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68D7BBA4378B9531469B00FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE39A65E1A836B36EEAAB22C /* Pods-parsemasterdetail.debug.xcconfig */,
+				927E14D6E7A626BF2F6EADF5 /* Pods-parsemasterdetail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87034A7ECA77F2D136F83AA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				496122AC3AAAD75D51234A29 /* Pods_parsemasterdetail.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8E72FF361BE50C9400C524D2 = {
 			isa = PBXGroup;
 			children = (
 				8E72FF411BE50C9400C524D2 /* parsemasterdetail */,
 				8E72FF401BE50C9400C524D2 /* Products */,
+				68D7BBA4378B9531469B00FE /* Pods */,
+				87034A7ECA77F2D136F83AA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +91,14 @@
 			isa = PBXGroup;
 			children = (
 				8E72FF421BE50C9400C524D2 /* AppDelegate.swift */,
+				8EF7BFB91BE50F660052770A /* Config.swift */,
+				8EF7BFC11BE535390052770A /* Trail.swift */,
+				8EF7BFBB1BE512E40052770A /* CollectionViewCell.swift */,
+				8EF7BFBD1BE513250052770A /* GradientView.swift */,
 				8E72FF441BE50C9400C524D2 /* MasterViewController.swift */,
 				8E72FF461BE50C9400C524D2 /* DetailViewController.swift */,
 				8E72FF481BE50C9400C524D2 /* Main.storyboard */,
+				8EF7BFBF1BE52CA40052770A /* ViewController.swift */,
 				8E72FF4B1BE50C9400C524D2 /* Assets.xcassets */,
 				8E72FF4D1BE50C9400C524D2 /* LaunchScreen.storyboard */,
 				8E72FF501BE50C9400C524D2 /* Info.plist */,
@@ -74,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E72FF531BE50C9400C524D2 /* Build configuration list for PBXNativeTarget "parsemasterdetail" */;
 			buildPhases = (
+				5AD359837834FA19B12A58E5 /* Check Pods Manifest.lock */,
 				8E72FF3B1BE50C9400C524D2 /* Sources */,
 				8E72FF3C1BE50C9400C524D2 /* Frameworks */,
 				8E72FF3D1BE50C9400C524D2 /* Resources */,
+				AE9BC1B357E47C0D3F249566 /* Embed Pods Frameworks */,
+				4CAE3C74403F9A0A9C9C62E7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,12 +175,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CAE3C74403F9A0A9C9C62E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-parsemasterdetail/Pods-parsemasterdetail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AD359837834FA19B12A58E5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE9BC1B357E47C0D3F249566 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-parsemasterdetail/Pods-parsemasterdetail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E72FF3B1BE50C9400C524D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF7BFBC1BE512E40052770A /* CollectionViewCell.swift in Sources */,
 				8E72FF471BE50C9400C524D2 /* DetailViewController.swift in Sources */,
+				8EF7BFC21BE535390052770A /* Trail.swift in Sources */,
+				8EF7BFBE1BE513250052770A /* GradientView.swift in Sources */,
+				8EF7BFBA1BE50F660052770A /* Config.swift in Sources */,
+				8EF7BFC01BE52CA40052770A /* ViewController.swift in Sources */,
 				8E72FF451BE50C9400C524D2 /* MasterViewController.swift in Sources */,
 				8E72FF431BE50C9400C524D2 /* AppDelegate.swift in Sources */,
 			);
@@ -249,23 +344,27 @@
 		};
 		8E72FF541BE50C9400C524D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE39A65E1A836B36EEAAB22C /* Pods-parsemasterdetail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = parsemasterdetail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.artisanbranding.com.parsemasterdetail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		8E72FF551BE50C9400C524D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927E14D6E7A626BF2F6EADF5 /* Pods-parsemasterdetail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = parsemasterdetail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.artisanbranding.com.parsemasterdetail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -288,6 +387,7 @@
 				8E72FF551BE50C9400C524D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (3.1.0)
+  - Bolts/Tasks (1.4.0)
+  - Parse (1.9.1):
+    - Bolts/Tasks (>= 1.4.0)
+  - ParseUI (1.1.6):
+    - Bolts/Tasks (~> 1.2)
+    - Parse (~> 1.8)
+  - SwiftyJSON (2.3.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.1)
+  - Parse (~> 1.9)
+  - ParseUI (~> 1.1)
+  - SwiftyJSON (~> 2.3)
+
+SPEC CHECKSUMS:
+  Alamofire: 415bd7f56197722978759078486689f7ef913dce
+  Bolts: 0e9bce58b9b9f5e8a7a4d47b16d2fabec289072b
+  Parse: 54a965c8c19a6dde90284ab654dbcc77ef8c001b
+  ParseUI: 8a22e448c03f825203d8c379c80523517f68baa3
+  SwiftyJSON: 592b53bee5ef3dd9b3bebc6b9cb7ee35426ae8c3
+
+COCOAPODS: 0.39.0
